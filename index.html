@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bean-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <title>The Bean Machine</title>
+    </head>
+    <body>
+        <header>
+            <a class="header" href="index.html">THE BEAN MACHINE</a>
+            <a class="header-mobile" href="index.html">B</a>
+            <nav>
+                <a class="nav" href="index.html">About</a>
+                <a class="nav" href="bean-selection.html">Selection</a>
+                <a class="nav login" href="bean-signup.html">Login</a>
+            </nav>
+            <div class="burger" onclick="clickBurger()">
+                <div class="bar bar-top"></div>
+                <div class="bar"></div>
+                <div class="bar bar-bottom"></div>
+                <div class="burger-links">
+                    <a href="index.html">About</a>
+                    <a href="bean-selection.html">Selection</a>
+                    <a href="bean-signup.html">Login</a>
+                </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div>
+                <h1>The Bean <br>Machine</h1>
+                <h2>Coffee Bean Shop</h2>
+                <div class="search">
+                    <input class="search-bar" placeholder="Search for a coffee bean">
+                    <button class="arrow"><img src="i/arrow.png"></button>
+                </div>
+            </div>
+            <img class="coffee-man" src="i/coffee-man.png">
+        </div>
+        <div class="about">
+            <h2>About</h2>
+                <p>We are a specialty Coffee Bean Shop based in Barcelona, Spain.</p>
+                <p>We are passionate about our coffee bean quality so we source our beans from all over the world in order to give you the best out there!</p>
+                <p>Visit our specialty coffee shop at <span>La Rambla 204</span>, where we serve the best coffee in Barcelona.</p>
+        </div>
+        <div class="special">
+            <h2>Special offers</h2>
+            <div class="offers">
+                <div class="offer">
+                    <img class="beans" src="i/beans.png">
+                    <p class="origin">Costa Rica Single Origin</p>
+                    <button class="buy" onclick="location.href='bean-signup.html'">BUY</button>
+                </div>
+                <div class="offer">
+                    <img class="beans" src="i/beans.png">
+                    <p class="origin">Brazil Medium Roast</p>
+                    <button class="buy" onclick="location.href='bean-signup.html'">BUY</button>
+                </div>
+                <div class="offer">
+                    <img class="beans" src="i/beans.png">
+                    <p class="origin">Colombia Single Origin</p>
+                    <button class="buy" onclick="location.href='bean-signup.html'">BUY</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Find us on social media</p>
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+        </footer>
+        <script src="bean-script.js"></script>
+    </body>
+</html>
